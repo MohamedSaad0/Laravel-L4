@@ -11,7 +11,7 @@ class Post extends Model
 
     // I have to add a property that allows me to add to the DB this is for security reasons
 
-    protected $fillable = ["title","description","user_id"];
+    protected $fillable = ["title","description","user_id","email","name"];
     // Using this created_at value wont be sent (hidden)
     // protected $hidden = ["created_at"];
 
